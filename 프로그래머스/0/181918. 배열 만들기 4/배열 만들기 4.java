@@ -10,7 +10,7 @@ class Solution {
                 } else if(stkList.size()>0 && stkList.get(stkList.size()-1)<arr[i]){
                     stkList.add(arr[i]);
                 } else if(stkList.size()>0 && stkList.get(stkList.size()-1)>=arr[i]){
-                    stkList.remove(stkList.remove(stkList.size()-1));
+                    stkList.remove(stkList.size()-1);
                     i--;
                 }
             }
