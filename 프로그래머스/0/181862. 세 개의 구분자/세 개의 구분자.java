@@ -11,15 +11,13 @@ class Solution {
         }
         String[] answer=new String[cnt-1]; 
         if(cnt==1){
-            answer=new String[1]; 
+            answer=new String[cnt]; 
             answer[0]="EMPTY";
         }
         for(int i=0; i<myString.length; i++){
             if(!myString[i].equals("")){
                 answer[idx]=myString[i];
                 idx++;
-            } else {
-                answer[idx]="EMPTY";
             }
         }
         return answer;
