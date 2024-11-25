@@ -1,18 +1,24 @@
-import java.util.*;
-
 class Solution {
     public int[] solution(int[] numlist, int n) {
-        Arrays.sort(numlist);
-        
+        int[] answer = new int[numlist.length];
+        int[] num = new int[numlist.length];
         for(int i=0; i<numlist.length; i++){
-            for(int j=0; j<numlist.length; j++){
-                if(Math.abs(numlist[i]-n) <= Math.abs(numlist[j]-n)){
-                    int temp = numlist[i];
-                    numlist[i] = numlist[j];
-                    numlist[j] = temp;
-                }
+           int result=(n-numlist[i])*2;
+            if(result<0){
+             num[i]=-1*result-1;
+            }else{
+             num[i]=result;
             }
         }
-        return numlist;
+        for(int i=0; i<num.length; i++){
+            int idx=0;
+            for(int j=0; j<num.length; j++){
+                if(num[i]>num[j]){
+                    idx++;
+                }
+            }
+            answer[idx]=numlist[i];
+        }
+        return answer;
     }
 }
