@@ -9,11 +9,13 @@ class Solution {
                 idx=i;
             }
         }
+        
         for(int i=0; i<numbers.length; i++){
-            if(i!=idx && num2<numbers[i]){
+            if(i!=idx && num2<=numbers[i]){
                 num2=numbers[i];
             } 
         }
+        
         return num1*num2;
     }
 }
