@@ -3,6 +3,7 @@ class Solution {
         int cnt=0;
         int idx=1;
         int num=n;
+        
         while(num!=1){
             if(num%2==0){
                 num=num/2;
@@ -14,8 +15,10 @@ class Solution {
                 break;
             }
         }
+        
         int[] answer = new int[cnt+1];
         answer[0]=n;
+        
         while(n!=1){
             if(n%2==0){
                 n=n/2;
