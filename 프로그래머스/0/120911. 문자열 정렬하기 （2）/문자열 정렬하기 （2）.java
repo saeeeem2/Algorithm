@@ -4,9 +4,11 @@ class Solution {
         String answer = "";
         String[] str=my_string.toLowerCase().split("");
         Arrays.sort(str);
+        
         for(String temp : str){
             answer+=temp;
         }
+        
         return answer;
     }
 }
