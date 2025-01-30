@@ -2,6 +2,7 @@ class Solution {
     public int solution(String my_string) {
         String[] str=my_string.split(" ");
         int answer = Integer.parseInt(str[0]);
+        
         for(int i=1; i<str.length-1; i=i+2){
             if(str[i].equals("+")){
                 answer+=Integer.parseInt(str[i+1]);
@@ -10,6 +11,7 @@ class Solution {
                 answer-=Integer.parseInt(str[i+1]);
             } 
         }
+        
         return answer;
     }
 }
