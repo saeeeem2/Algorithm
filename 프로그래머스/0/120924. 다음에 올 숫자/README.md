@@ -1,10 +1,10 @@
 # [level 0] 다음에 올 숫자 - 120924 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120924#qna) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120924) 
 
 ### 성능 요약
 
-메모리: 78.2 MB, 시간: 0.08 ms
+메모리: 85.4 MB, 시간: 0.07 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 09월 11일 20:41:28
+2025년 02월 02일 19:35:46
 
 ### 문제 설명
 
