@@ -3,6 +3,7 @@ class Solution {
         String[] answer = new String[quiz.length];
         String[] quiz_list=new String[5];
         int index=0;
+        
         for(int i=0; i<quiz.length; i++){
             quiz_list=quiz[i].split(" ");
             if(quiz_list[1].equals("+")){
@@ -23,6 +24,7 @@ class Solution {
                 }
             }
         }
+        
         return answer;
     }
 }
