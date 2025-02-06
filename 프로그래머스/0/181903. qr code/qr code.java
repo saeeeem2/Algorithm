@@ -1,9 +1,10 @@
 class Solution {
     public String solution(int q, int r, String code) {
         String answer = "";
-        for(int i=0; i<code.length(); i++){
+        String[] code_idx=code.split("");
+        for(int i=0; i<code_idx.length; i++){
             if(i%q==r){
-                answer+=code.charAt(i);
+                answer+=code_idx[i];
             }
         }
         return answer;
