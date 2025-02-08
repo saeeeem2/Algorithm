@@ -18,7 +18,6 @@ class Solution {
             }
         }
         Arrays.sort(att_list, new Comparator<int[]>(){
-            
             @Override
             public int compare(int[] o1, int[] o2){
                 return o1[0] - o2[0];
