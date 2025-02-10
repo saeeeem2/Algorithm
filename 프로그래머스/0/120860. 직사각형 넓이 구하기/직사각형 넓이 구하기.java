@@ -7,6 +7,7 @@ class Solution {
         int min_x=dots[0][0];
         int max_y=dots[0][1];
         int min_y=dots[0][1];
+        
         for(int i=0; i<dots.length; i++){
             if(dots[i][0]>max_x){
                 max_x=dots[i][0];
