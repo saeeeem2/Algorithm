@@ -1,10 +1,10 @@
 # [level 0] 코드 처리하기 - 181932 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181932#qna) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181932) 
 
 ### 성능 요약
 
-메모리: 379 MB, 시간: 363.44 ms
+메모리: 380 MB, 시간: 336.28 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 13일 22:44:18
+2025년 02월 11일 22:34:10
 
 ### 문제 설명
 

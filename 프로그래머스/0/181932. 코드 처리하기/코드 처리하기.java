@@ -17,6 +17,7 @@ class Solution {
                 }
             }
         }
+        
         if(answer.length()==0){
             answer="EMPTY";
         }
