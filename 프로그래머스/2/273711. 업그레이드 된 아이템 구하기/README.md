@@ -1,6 +1,6 @@
 # [level 2] 업그레이드 된 아이템 구하기 - 273711 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/273711#qna) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/273711) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 02월 27일 04:47:04
+2025년 03월 11일 22:55:44
 
 ### 문제 설명
 
