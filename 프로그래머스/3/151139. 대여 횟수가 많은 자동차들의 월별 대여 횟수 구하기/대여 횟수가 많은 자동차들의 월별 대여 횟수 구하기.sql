@@ -1,6 +1,4 @@
-SELECT month(start_date) as month, 
-       car_id, 
-       count(history_id) as records
+SELECT month(start_date) as month, car_id, count(history_id) as records
 from CAR_RENTAL_COMPANY_RENTAL_HISTORY
 where start_date >= "2022-08-01" 
   and start_date < "2022-11-01" 
