@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 75.4 MB, 시간: 1.78 ms
+메모리: 90 MB, 시간: 2.43 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 06월 23일 21:07:47
+2025년 03월 31일 22:26:56
 
 ### 문제 설명
 
@@ -57,7 +57,8 @@
 <p>입출력 예 #1</p>
 
 <ul>
-<li><p>예제 1번의 <code>my_string</code>의 인덱스가 잘 보이도록 표를 만들면 다음과 같습니다.</p>
+<li>예제 1번의 <code>my_string</code>의 인덱스가 잘 보이도록 표를 만들면 다음과 같습니다.</li>
+</ul>
 <table class="table">
         <thead><tr>
 <th>index</th>
@@ -105,9 +106,7 @@
 <td>s</td>
 </tr>
 </tbody>
-      </table>
-<p><code>indices</code>에 있는 인덱스의 글자들을 지우고 이어붙이면 "programmers"가 되므로 이를 return 합니다.</p></li>
-</ul>
-
+      </table><div class="highlight"><pre class="codehilite"><code>`indices`에 있는 인덱스의 글자들을 지우고 이어붙이면 "programmers"가 되므로 이를 return 합니다.
+</code></pre></div>
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
