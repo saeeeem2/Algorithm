@@ -10,11 +10,14 @@ class Solution
         for(int i=0; i<A.length; i++){
             aNum.add(A[i]);
         }
+        
         for(int i=0; i<B.length; i++){
             bNum.add(B[i]);
         }
+        
         Collections.sort(aNum);
         Collections.sort(bNum, Collections.reverseOrder());
+        
         for(int i=0; i<aNum.size(); i++){
             answer+=aNum.get(i)*bNum.get(i);
         }
