@@ -1,10 +1,10 @@
 # [level 0] 모음 제거 - 120849 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120849) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120849#qna) 
 
 ### 성능 요약
 
-메모리: 78.3 MB, 시간: 0.12 ms
+메모리: 33.6 MB, 시간: 0.11 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 06월 03일 20:04:16
+2025년 04월 05일 22:07:10
 
 ### 문제 설명
 
