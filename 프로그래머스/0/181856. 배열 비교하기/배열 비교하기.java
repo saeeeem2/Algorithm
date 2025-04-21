@@ -3,7 +3,6 @@ class Solution {
         int answer = 0;
         int sum1=0;
         int sum2=0;
-        
         if(arr1.length>arr2.length){
             answer=1;
         } else if(arr1.length<arr2.length){
@@ -22,7 +21,6 @@ class Solution {
                 answer=0;
             }
         }
-
         return answer;
     }
 }
