@@ -1,6 +1,7 @@
 class Solution {
     public String solution(int[] numLog) {
         String answer = "";
+        
         for(int i=1; i<numLog.length; i++){
             if(numLog[i]-numLog[i-1]==1){
                 answer+="w";
@@ -12,6 +13,8 @@ class Solution {
                 answer+="a";
             } 
         }
+        
         return answer;
+        
     }
 }
