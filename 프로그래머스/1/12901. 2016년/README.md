@@ -1,10 +1,10 @@
 # [level 1] 2016년 - 12901 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12901#qna) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12901) 
 
 ### 성능 요약
 
-메모리: 72.9 MB, 시간: 0.04 ms
+메모리: 83.7 MB, 시간: 0.04 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 03월 22일 19:58:28
+2025년 05월 16일 23:16:32
 
 ### 문제 설명
 

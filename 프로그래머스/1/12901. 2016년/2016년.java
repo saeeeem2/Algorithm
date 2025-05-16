@@ -14,6 +14,7 @@ class Solution {
         day += b - 1;
         String str[] = {"FRI","SAT","SUN","MON","TUE","WED","THU"};
         answer = str[day%7];
+        
         return answer;
     }
 }
