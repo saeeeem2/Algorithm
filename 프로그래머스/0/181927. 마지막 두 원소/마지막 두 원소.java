@@ -6,7 +6,7 @@ class Solution {
             answer[i]=num_list[i];
             if(num_list[idx-1]>num_list[idx-2]){
                 answer[idx]=num_list[idx-1]-num_list[idx-2];
-            } else {
+            } else { 
                 answer[idx]=num_list[idx-1]*2;
             }
         }
