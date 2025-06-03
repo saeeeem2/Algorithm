@@ -7,7 +7,9 @@ class Solution {
                 cnt++;
             }
         }
+        
         String[] answer=new String[cnt];
+        
         for(int i=0; i<todo_list.length; i++){
             if(!finished[i]){
                 answer[idx]=todo_list[i];
