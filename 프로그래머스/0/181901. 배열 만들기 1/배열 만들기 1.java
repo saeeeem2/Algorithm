@@ -4,8 +4,7 @@ class Solution {
         int idx=0;
         for(int i=1; i<=n; i++){
             if(i%k==0){
-                answer[idx]=i;
-                idx++;
+                answer[idx++]=i;
             }
         }
         return answer;
