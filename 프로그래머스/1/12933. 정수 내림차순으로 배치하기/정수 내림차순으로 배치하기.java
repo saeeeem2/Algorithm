@@ -6,7 +6,9 @@ class Solution {
         for(long i=n; i>0; i=i/10){
             list.add(i%10);
         }
+        
         list.sort(Comparator.reverseOrder());
+        
         for(int i=0; i<list.size(); i++){
             answer+=""+list.get(i);
         }
