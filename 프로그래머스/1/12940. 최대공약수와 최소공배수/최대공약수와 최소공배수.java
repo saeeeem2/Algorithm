@@ -10,7 +10,7 @@ class Solution {
                 answer[0]=i;
             }
         }
-        for(int i=n; i<=1000000; i=i+n){
+        for(int i=n; i <= 1000000; i=i+n){
             if(i%n==0&&i%m==0){
                 answer[1]=i;
                 break;
