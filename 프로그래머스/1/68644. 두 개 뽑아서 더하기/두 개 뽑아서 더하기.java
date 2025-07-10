@@ -4,7 +4,7 @@ class Solution {
         HashSet<Integer> num = new HashSet<>();
         for(int i=0; i<numbers.length; i++){
             for(int j=0; j<numbers.length; j++){
-                if(i!=j){
+                if(i != j){
                     num.add(numbers[i]+numbers[j]);
                 }
             }
