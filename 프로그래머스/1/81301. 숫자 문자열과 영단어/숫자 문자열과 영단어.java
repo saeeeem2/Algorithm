@@ -11,7 +11,7 @@ class Solution {
         s=s.replaceAll("seven","7");
         s=s.replaceAll("eight","8");
         s=s.replaceAll("nine","9");
-        answer=Integer.parseInt(s);
+        answer = Integer.parseInt(s);
         return answer;
     }
 }
