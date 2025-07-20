@@ -5,7 +5,7 @@ class Solution {
             for(int j=0; j<photo[i].length; j++){
                 for(int k=0; k<name.length; k++){
                     if(name[k].equals(photo[i][j])){
-                        answer[i]+=yearning[k];
+                        answer[i] += yearning[k];
                         break;
                     }
                 }
