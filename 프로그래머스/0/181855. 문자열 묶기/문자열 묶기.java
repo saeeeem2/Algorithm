@@ -9,7 +9,7 @@ class Solution {
                     count ++;
                 }
                 if(answer<count){
-                    answer=count;
+                    answer = count;
                 }
             }
         }
