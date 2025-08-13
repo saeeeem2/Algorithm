@@ -3,12 +3,12 @@ class Solution {
         String answer = "";
         
         for(int i=0; i<my_string.length(); i++){
-            if(i==num1){
-                answer+=my_string.charAt(num2);
-            } else if(i==num2){
-                answer+=my_string.charAt(num1);
+            if(i == num1){
+                answer += my_string.charAt(num2);
+            } else if(i == num2){
+                answer += my_string.charAt(num1);
             } else {
-                answer+=my_string.charAt(i);
+                answer += my_string.charAt(i);
             }
         }
         
