@@ -4,10 +4,10 @@ class Solution {
         int pCnt=0;
         int yCnt=0;
         for(int i=0; i<str.length(); i++){
-            if(str.charAt(i)=='P'){
+            if(str.charAt(i) == 'P'){
                 pCnt++;
             } 
-            if(str.charAt(i)=='Y'){
+            if(str.charAt(i) == 'Y'){
                 yCnt++;
             }
         }
