@@ -10,7 +10,7 @@ class Solution {
         List<Integer> result = new ArrayList<>();
         int max = pgrList[0];
         int count = 1;
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i < n; i ++) {
             if (pgrList[i] <= max) {
                 count++;
             } else {
@@ -21,7 +21,7 @@ class Solution {
         }
         result.add(count); 
         int[] answer = new int[result.size()];
-        for (int i = 0; i < result.size(); i++) {
+        for (int i = 0; i < result.size(); i ++) {
             answer[i] = result.get(i);
         }
         return answer;
