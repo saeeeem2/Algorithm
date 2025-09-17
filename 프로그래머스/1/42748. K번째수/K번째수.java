@@ -2,8 +2,8 @@ import java.util.*;
 class Solution {
     public int[] solution(int[] array, int[][] commands) {
         int[] answer = new int[commands.length];
-        int cnt=0;
-        int index=0;
+        int cnt = 0;
+        int index = 0;
         for(int i=0; i<commands.length; i++){
             int idx=0;
             cnt=commands[i][1]-commands[i][0]+1;
