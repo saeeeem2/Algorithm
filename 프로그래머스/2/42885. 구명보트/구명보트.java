@@ -6,7 +6,7 @@ class Solution {
         int idx = people.length-1;
         int i = 0;
         while(i <= idx){
-            if(people[i]+people[idx] <= limit){
+            if(people[i] + people[idx] <= limit){
                 i++;
             }
             idx--;
