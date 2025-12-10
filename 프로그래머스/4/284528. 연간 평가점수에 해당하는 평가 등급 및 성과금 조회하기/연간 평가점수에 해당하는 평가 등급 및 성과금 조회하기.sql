@@ -1,5 +1,6 @@
 -- 코드를 작성해주세요
-SELECT GR.EMP_NO, EM.EMP_NAME,   
+SELECT GR.EMP_NO,
+       EM.EMP_NAME,   
     (CASE
         WHEN AVG(GR.SCORE) >= 96 THEN 'S'
         WHEN AVG(GR.SCORE) BETWEEN 90 AND 96 THEN 'A'
